@@ -47,6 +47,7 @@
  #hero-image {
   height:10%;
   width:100%;
+  margin-bottom: 25px;
  }
 
  #title {
@@ -76,7 +77,60 @@
 
 }
 
+hr {
+  colour: #655E4E, 2px, solid;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+/*core strength*/
+
 #sub-sec {
   letter-spacing:2px;
   font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+.sub-right {
+  letter-spacing:1px;
+  font-weight:lighter;
+  margin-bottom: 3%;
+  float:right;
+  width:50%;
+  text-align:left;
+
+}
+/* core strength image */
+#plank {
+  height:25%;
+  width:45%;
+  position:auto;
+}
+/*
+.box {
+  position:relative;
+  top:250px;
+  left:60px;
+  width:500px;
+  height:300px;
+  background-color: #655E4E;
+  opacity: 0.8;
+}
+*/
+/* flexibilty */
+
+.sub-left {
+  letter-spacing:1px;
+  font-weight:lighter;
+  margin-bottom: 3%;
+  float:left;
+  width:50%;
+  text-align:left;
+}
+#cobra {
+  height:25%;
+  width:45%;
+  position:auto;
+  float:right;
+
 }
