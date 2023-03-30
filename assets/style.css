@@ -1,7 +1,34 @@
   @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@100&display=swap');
 
+  html {background-color: #EBE1CD;}
+
+
+  /* Nav bar styling */
   body {
     font-family: lora, sans-serif;
     font-size: 300;
     color:#655E4E;
   }
+
+  #main-menu {
+    font-family: lora, sans-serif;
+    font-size: 110%;
+    color:#655E4E;
+    letter-spacing: 3px;
+  }
+
+  #main-menu a {
+    text-decoration: none;
+    color:inherit;
+  }
+
+  #main-menu li {
+    list-style-type: none;
+    position: centre;
+    display: inline;
+    margin-left:20%;
+  
+
+  }
+  
+ 
