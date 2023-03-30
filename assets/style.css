@@ -1,10 +1,16 @@
   @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@100&display=swap');
 
-  html {background-color: #EBE1CD;}
+  html {
+    
+    margin-left:5%;
+    margin-right:5%;
+  
+  }
 
 
   
   body {
+    background-color: #EBE1CD;
     font-family: lora, sans-serif;
     font-size: 300;
     color:#655E4E;
@@ -14,15 +20,18 @@
 
   #main-menu {
     font-family: lora, sans-serif;
-    font-size: 110%;
+    font-size: 90%;
     color:#655E4E;
     letter-spacing: 3px;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
   #main-menu a {
     text-decoration: none;
     color:inherit;
     text-transform: uppercase;
+    
   }
 
   #main-menu li {
@@ -36,7 +45,38 @@
  /* hero image styling */
 
  #hero-image {
-  height:500px;
-  width:80%;
-  margin-left:10%;
+  height:10%;
+  width:100%;
  }
+
+ #title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  letter-spacing:10px;
+  text-transform:uppercase;
+  font-size: 400%;
+}
+
+/* why pilates */
+
+#why-pilates {
+  text-transform: uppercase;
+  font-family:lora, sans-serif;
+  letter-spacing: 2px;
+  font-weight:lighter;
+}
+
+.para {
+  letter-spacing:1px;
+  font-weight:lighter;
+  margin-bottom: 3%;
+
+}
+
+#sub-sec {
+  letter-spacing:2px;
+  font-weight: lighter;
+}
