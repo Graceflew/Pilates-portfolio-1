@@ -31,7 +31,6 @@
     text-decoration: none;
     color:inherit;
     text-transform: uppercase;
-    
   }
 
   #main-menu li {
@@ -41,7 +40,17 @@
     margin-left:20%;
   
   }
-  
+
+  #main-menu a:hover{
+    color:#909E90;
+    border-bottom: 1px solid #909E90;
+  }
+
+  a:active {
+    color:#909E90;
+    border-bottom: 1px solid #909E90;
+  }
+
  /* hero image styling */
 
  #hero-image {
@@ -78,9 +87,7 @@
 }
 
 hr {
-  colour: #655E4E, 2px, solid;
-  margin-top:50px;
-  margin-bottom:50px;
+  border-bottom: #909E90 2px solid;
 }
 
 /*core strength*/
@@ -101,10 +108,15 @@ hr {
 
 }
 /* core strength image */
+
 #plank {
   height:25%;
   width:45%;
   position:auto;
+}
+
+.padding {
+  padding-top: 2%;
 }
 /*
 .box {
@@ -119,6 +131,7 @@ hr {
 */
 /* flexibilty */
 
+
 .sub-left {
   letter-spacing:1px;
   font-weight:lighter;
@@ -128,9 +141,29 @@ hr {
   text-align:left;
 }
 #cobra {
-  height:25%;
+  height:20%;
   width:45%;
   position:auto;
   float:right;
+  padding-bottom:40px;
 
+}
+
+#sit {
+  height:20%;
+  width:45%;
+  position:auto;
+  float:right;
+  margin-right:5%;
+
+}
+
+#bot-sub {
+  margin-top:40px;
+}
+
+.padding2 {
+  padding:17%;
+
+  
 }
