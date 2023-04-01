@@ -54,7 +54,7 @@
 
  /* hero image styling */
 
- #hero-image {
+ .hero-image {
   height:10%;
   width:100%;
   margin-bottom: 25px;
@@ -93,7 +93,7 @@ hr {
 
 /*core strength*/
 
-#sub-sec {
+.sub-sec {
   letter-spacing:2px;
   font-weight: lighter;
   margin-bottom: 25px;
