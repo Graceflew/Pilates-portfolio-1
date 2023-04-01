@@ -186,9 +186,9 @@ footer li {
   }
 
   .pil-img {
-    height:400px;
     position:inline-block;
-    margin:4.5%;
+    margin-left:10%;
+    width:20%;
   }
 
   /*Sign up*/
@@ -240,4 +240,51 @@ footer li {
 
 .margin {
   margin-top:30%;
+}
+
+/* media queries */
+
+/* for larger to medium screens from 1200px wide and down*/
+
+@media screen and (max-width: 1005px){
+
+#main-menu li {
+  margin-left:5%;
+  text-align:center;
+}
+
+#title {
+font-size:200%;
+position: center;
+}
+#title2 {
+  font-size:200%;
+  text-align:center;
+  padding:0;
+  }
+
+#plank {
+  width:100%;
+}
+
+.sub-right {
+width:100%;
+}
+
+.sub-left {
+  width:100%;
+}
+
+#cobra {
+  width:100%;
+}
+
+#sit {
+  width:100%;
+}
+
+iframe {
+  width:100%;
+}
+
 }
